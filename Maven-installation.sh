@@ -9,6 +9,7 @@ rm -rf $tar_file
 
 echo "export M2_HOME=/opt/maven" >> ~/.bashrc
 echo "export M2=$M2_HOME/bin" >> ~/.bashrc
-echo "export PATH=$M2:$PATH" ?? ~/.bashrc
+echo "export PATH=$M2:$PATH" >> ~/.bashrc
 
 ## RESTARTING /.bashrc file
+source ~/.bashrc
